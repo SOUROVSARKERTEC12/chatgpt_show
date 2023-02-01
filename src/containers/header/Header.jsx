@@ -2,6 +2,7 @@ import React from 'react';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 import './header.css'
+// eslint-disable-next-line
 
 const Header = () => (
     <div className="gpt3__header section__padding" id="home">
@@ -17,13 +18,13 @@ const Header = () => (
             </div>
 
             <div className="gpt3__header-content__people">
-                <img src={people}/>
+                <img src={people} alt="people"/>
                 <p>1,600 people requested access a visit in last 24 hours</p>
             </div>
         </div>
 
         <div className="gpt3__header-image">
-            <img src={ai}/>
+            <img src={ai} alt="ai"/>
         </div>
     </div>
 );
